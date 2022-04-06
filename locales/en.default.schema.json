@@ -239,6 +239,23 @@
         }
       }
     },
+    "bst-logo-favicon": {
+      "name": "Blueskytechco Huan and favicon",
+      "settings": {
+        "header__logo": {
+          "content": "Logo Image"
+        },
+        "header__favicon": {
+          "content": "Favicon Image"
+        },
+        "logo__label": {
+          "label": "Logo"
+        },
+        "favicon__label": {
+          "label": "Favicon"
+        }
+      }
+    },
     "search_input": {
       "name": "Search behavior",
       "settings": {

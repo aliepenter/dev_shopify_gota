@@ -7,7 +7,32 @@
     "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes",
     "theme_support_url": "https://support.shopify.com/"
   },
+  { 
+    
+    "name": "t:settings_schema.bst-logo-favicon.name",
+    "settings": [
+      {
+        "type": "header",
+        "content": "t:settings_schema.bst-logo-favicon.settings.header__logo.content"
+      },
+      {
+        "type": "image_picker",
+        "id": "bst_main_logo",
+        "label": "t:settings_schema.bst-logo-favicon.settings.logo__label.label"
+      },
+      {
+        "type": "header",
+        "content": "t:settings_schema.bst-logo-favicon.settings.header__favicon.content"
+      },
+      {
+        "type": "image_picker",
+        "id": "bst_favicon",
+        "label": "t:settings_schema.bst-logo-favicon.settings.favicon__label.label"
+      }
+    ]
+  },
   {
+    
     "name": "t:settings_schema.colors.name",
     "settings": [
       {
